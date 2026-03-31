@@ -16,7 +16,7 @@
 //   2. [Convert all lowercase lines to uppercase]
 //   3. [Trim all leading and trailing whitespace]
 //   4. [Reverse the words in any line that contains the word REVERSE]
-//   5. [Flag any line longer than 80 characters with [TRUNCATED] at the end]
+//   5. [Remove lines that are only dashes or blanks]
 //
 // Output format:
 //   [Header: yes]
