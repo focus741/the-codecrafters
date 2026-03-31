@@ -1,0 +1,25 @@
+SENTINEL INTERFACE REPORT
+─────────────────────────
+1. This Is A Full Caps Line
+2. THIS IS A LOWERCASE LINE
+3. THIS LINE HAS LEADING AND TRAILING SPACES
+4. ----------------------------------
+5. ANOTHER LOWERCASE EXAMPLE
+6. This Is Another All Caps Line
+7. inside keyword REVERSE with line
+8. INSTRUCTION REVERSE CONTAINS LINE THIS
+9. ----------------------------------
+10. SHORT
+11. THIS IS A VERY VERY VERY VERY VERY VERY VERY VERY VERY VERY VERY VERY VERY LONG LINE THAT SHOULD BE FLAGGED BECAUSE IT EXCEEDS EIGHTY CHARACTERS [TRUNCATED]
+12. Reverse Should Trigger Here
+13. KEYWORD REVERSE WITH LOWERCASE
+14. ----------------------------------
+15. FINAL LOWERCASE LINE
+16. Final All Caps Line
+17. spaced ALL CAPS LINE
+─────────────────────────
+SUMMARY
+Lines read : 17
+Lines written : 17
+Lines removed : 0
+Processed at : 2026-03-31 16:55:46
