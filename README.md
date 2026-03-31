@@ -28,5 +28,5 @@
   //   [Lines read    : [number]]
        [Lines written : [number]]
        [Lines removed : [number] ]
-       [Rules applied : [list your 5 rules]]
+       [Rules applied : [list your 5 rules]].
   // ═══════════════════════════════════════════
