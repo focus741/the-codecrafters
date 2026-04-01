@@ -22,3 +22,21 @@ Thirdly, i looped inside the marker to find the number, then created another loo
 
 Lastly, i appended the remaining of the text after the marker to that slice and return it as a string through strings.Join.
 ---
+------------------------------------------------------------------------------------------
+# Tavershima Elvis
+# personal contribution;
+#A CLI tool for handling upper
+```go
+. The CLI tool turns the previous word or words into upper case any where it sees (up, number) in a text the "(up, number)" is the command the Command Line Interface is using, if replace number in the bracket with a number in figure with the up, ;the texts at the length of the indicate number turns to uppercase.
+
+ Example: input= the world of go(up, 4) is wild
+          output= THE WORLD OF GO is wild
+         
+.My contribution to the program is the part where my function handles the ToUpper in the text and brainstorming with my group members in to bring out result in this aspect as our section was base on handling up, cap and low, also the general merging of the files.
+
+# One Thing I Found Hardest and Understand Today
+
+.One thing i found hard today is the logic of implementing the command after identifying the markers in the text that represent commands
+
+. one thing i understand is first, how to work in group, breaking task to peices and working on them also creating a pull request
+
