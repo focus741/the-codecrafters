@@ -8,10 +8,10 @@ import (
 
 // I was in the room (low, 2), yes
 
-func main() {
+/*func main() {
 	fmt.Println(lowN("I was in THE THIRD ROOM FLOOR (low, 2), yes"))
 }
-
+*/
 func lowN(text string) string {
 	opening_Marker := strings.Index(text, "(")
 	closing_Marker := strings.Index(text, ")")
