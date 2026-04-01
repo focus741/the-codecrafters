@@ -32,8 +32,8 @@ What i found hardest was using the number gotten from the marker to transform th
 
 I learnt new tactics to work around my loops, slices and strings, my creativity is what keeps me open minded to solving solutions i didn't have answers to.
 
+Lastly, i appended the remaining of the text after the marker to that slice and return it as a string through strings.Join.
 ---
-
 
 # auoche
 
@@ -96,6 +96,3 @@ After that i used if statement that if the error is not eqaul to it should retur
 Then i had to wriite another function that will bring the input and return everything in the output figure as presented using regexp.Must.Compile
 
 Then after i that, i joined in writing the read file and input to make sure the file brings out the output in everything
-
-Lastly, i appended the remaining of the text after the marker to that slice and return it as a string through strings.Join.
----
