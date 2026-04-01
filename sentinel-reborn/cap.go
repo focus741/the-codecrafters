@@ -21,8 +21,9 @@ func parseModifier(t string) string {
 }
 
 
-func main() {
+/*func main() {
 	fmt.Println(parseModifier("hello (up)"))
 	fmt.Println(parseModifier("Onminyi Andrew Okala (low)"))
 	fmt.Println(parseModifier("hello andrew (cap)"))
 }
+*/
