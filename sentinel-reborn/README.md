@@ -129,3 +129,13 @@ the one thing I found hardest today was to figure out how to get the standalone 
 
 Team work makes tedious job easier
 
+---
+
+## Adebanjo Alex
+
+It was confusing at first but when me and my colleagues tackled it it became much easier than before because, the projects were being shared out amongst ourselves to do the ascertained task i didnt  bring much to the table but i was present in every step of the way to learn new things as well  with others .
+
+My group said my code needed to be redone because it wasn’t solving the problem well. I rewrote it but didn’t share it since it still wasn’t perfect. I got really exhausted and had to ask my group members and the “legends” for help.
+
+But in all. we completed everything and scaled through successfully and we finished it excellently.
+
