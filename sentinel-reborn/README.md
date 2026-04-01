@@ -83,9 +83,6 @@ At first i wasn't sure of how to implement the code, I even misplaced priority b
 I understood how to use the `strings.Index` and `strings.Contains()` in a function very well now.
 ---
 
-Lastly, i appended the remaining of the text after the marker to that slice and return it as a string through strings.Join.
----
-
 # kinonoja
 
 When we started; I was given the job of handling the conversion of hexadecimal to decimal. 
@@ -99,3 +96,6 @@ After that i used if statement that if the error is not eqaul to it should retur
 Then i had to wriite another function that will bring the input and return everything in the output figure as presented using regexp.Must.Compile
 
 Then after i that, i joined in writing the read file and input to make sure the file brings out the output in everything
+
+Lastly, i appended the remaining of the text after the marker to that slice and return it as a string through strings.Join.
+---
