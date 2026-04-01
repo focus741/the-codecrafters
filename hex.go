@@ -37,5 +37,6 @@ func main() {
 	}
 	for _, s := range inputs {
 		fmt.Println(replaceHexWithDec(s))
+
 	}
 }
