@@ -33,6 +33,6 @@ func up(text string) string {
 	return strings.Join(newtext, " ")
 
 }
-func main() {
+/*func main() {
 	fmt.Println(up("this is a programing language (up, 4) go"))
-}
+}*/
