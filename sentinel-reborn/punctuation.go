@@ -3,43 +3,47 @@ package main
 import (
 	"fmt"
 	"strings"
-	"unicode"
 )
 
 func fixQuotes(s string) string {
+	fields := strings.Fields(s)
+	s = strings.Join(fields, " ")
+
 	var result strings.Builder
-	n := len(s)
 	inQuote := false
-	for i := 0; i < n; i++ {
-		if s[i] == '\'' {
+
+	for i := 0; i < len(s); i++ {
+		char := s[i]
+
+		if char == '\'' {
 			if !inQuote {
 				inQuote = true
 				result.WriteByte('\'')
-				j := i + 1
-				for j < n && s[j] == ' ' {
-					j++
+				if i+1 < len(s) && s[i+1] == ' ' {
+					i++
 				}
-				i = j - 1
 			} else {
 				inQuote = false
 				resStr := result.String()
 				if len(resStr) > 0 && resStr[len(resStr)-1] == ' ' {
 					result.Reset()
-					result.WriteString(resStr[:len(resStr)-1])
+					result.WriteString(strings.TrimSuffix(resStr, " "))
 				}
 				result.WriteByte('\'')
 			}
-		} else {
-			if unicode.IsSpace(rune(s[i])) {
-				if i+1 < n && !unicode.IsSpace(rune(s[i+1])) {
-					result.WriteByte(' ')
-				}
-			} else {
-				result.WriteByte(s[i])
+		} else if char == '.' {
+			resStr := result.String()
+			if len(resStr) > 0 && resStr[len(resStr)-1] == ' ' {
+				result.Reset()
+				result.WriteString(strings.TrimSuffix(resStr, " "))
 			}
+			result.WriteByte('.')
+		} else {
+			result.WriteByte(char)
 		}
 	}
-	return strings.TrimSpace(result.String())
+
+	return result.String()
 }
 
 func main() {
