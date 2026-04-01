@@ -129,19 +129,3 @@ the one thing I found hardest today was to figure out how to get the standalone 
 
 Team work makes tedious job easier
 
-
-## Adebanjo AleX 
-It was confusing at first but when me and my colleagues tackled it it became much easier than before because, the projects were being shared out amongst ourselves to do the ascertained task i didnt  bring much to the table but i was present in every step of the way to learn new things as well  with others .
-
-At some point, my group said the code I wrote needed to be redone because it wasn’t solving the problem properly. So I deleted it and tried writing another one, but I didn’t show it to anyone because I could already see it still wasn’t working the way I wanted.
-
-At that point, I was really exhausted, so I had to ask my group members and the assigned “legends” for ideas and help. The funny thing was, while I was going through all that stress, when I looked back at my group, the number of active people kept reducing.
-
-But honestly, thanks to the “legends” and the few group members that stayed active — it wasn’t easy at all.
-
-I tried my best as the group defender to keep everyone together, but some people dropped out along the way, and some left and never came back. In the end, we finished the project, and that alone is a won thanks to you all.
-
-The hardest part for me was seeing all the files together after everyone pushed their work. Some parts were smooth, but others were really stressful. I had to stop and think deeply before I could make everything work together properly.
-
- the had issues pushing their work, so we had to come together and help them fix it. That part wasn’t easy either, but we managed to push through.
-
