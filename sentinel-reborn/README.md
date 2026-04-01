@@ -23,6 +23,9 @@ My approach on the code I got right was that i use regexp for pattern matching, 
 Then the pushing and merge this is were the work is, I did the merging well but some file stress my life. Some are stubborn and refuse to merge, some of my group members work even refused to be pushed which almost killed me. lol
 
 Lastly the main.go file where we join all the files together after the stress of pushing and merging. WE ARE DONE!!!
+
+---
+
 # hmusa
 
 **What your personal contribution was**
@@ -47,6 +50,7 @@ What i found hardest was using the number gotten from the marker to transform th
 I learnt new tactics to work around my loops, slices and strings, my creativity is what keeps me open minded to solving solutions i didn't have answers to.
 
 Lastly, i appended the remaining of the text after the marker to that slice and return it as a string through strings.Join.
+
 ---
 
 # auoche
@@ -63,6 +67,7 @@ I emperward my tag with a simple .Title function with a finishing touch of joini
 
 
 ------------------------------------------------------------------------------------------
+
 # Tavershima Elvis
 **personal contribution;**
 #A CLI tool for handling upper
@@ -95,6 +100,7 @@ At first i wasn't sure of how to implement the code, I even misplaced priority b
 
 **What I understood Today**
 I understood how to use the `strings.Index` and `strings.Contains()` in a function very well now.
+
 ---
 
 # kinonoja
