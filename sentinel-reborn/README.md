@@ -96,3 +96,18 @@ After that i used if statement that if the error is not eqaul to it should retur
 Then i had to wriite another function that will bring the input and return everything in the output figure as presented using regexp.Must.Compile
 
 Then after i that, i joined in writing the read file and input to make sure the file brings out the output in everything
+
+
+
+# Nnenna
+I worked on the function that input "an" words starting with vowels and h.
+
+* * i have to first convert the input to slice and then loop over it in order to find a standalone a, then check if the first letter of that word starts with vowel or h if it is so it will go back and convert the a to an.
+
+* * one thing i found hardest today?
+
+the one thing I found hardest today was to figure out how to get the standalone a and go forward to check the next word, then go back to convert
+
+* * One thing you understand now that you did not understand this morning
+
+Team work makes tedious job easier
