@@ -19,11 +19,9 @@ func vol(s string) string {
 			word[i] = "A"
 
 		}
-
 	}
 	return strings.Join(word, " ")
 }
-
 func main() {
 	fmt.Println(vol("An world. A hello and A union"))
 	fmt.Println(vol("There it was. A amazing rock!"))
