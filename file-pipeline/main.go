@@ -63,7 +63,6 @@ func lowerToUpper(line string) string {
 func trim(line string) string {
 	return strings.TrimSpace(line)
 }
-
 func reverse(line string) string {
 	if strings.Contains(line, "REVERSE") {
 		words := strings.Fields(line)
@@ -75,11 +74,9 @@ func reverse(line string) string {
 	return line
 }
 
-func ifLong(line string) string {
-	if len(line) > 80 {
-		return line + " [TRUNCATED]"
-	}
-	return line
+func isDashorBlank(line string) bool {
+	trimmed := strings.TrimSpace(line)
+	return trimmed == "" || trimmed == "─────────────────────────"
 }
 
 func main() {
@@ -113,6 +110,7 @@ func main() {
 
 	var processed []string
 	linesRead := 0
+	linesRemoved := 0
 
 	for scanner.Scan() {
 		line := scanner.Text()
@@ -122,7 +120,10 @@ func main() {
 		line = lowerToUpper(line)
 		line = trim(line)
 		line = reverse(line)
-		line = ifLong(line)
+		if isDashorBlank(line) {
+			linesRemoved++
+			continue
+		}
 
 		processed = append(processed, line)
 	}
@@ -148,19 +149,18 @@ func main() {
 	}
 
 	writer.WriteString("─────────────────────────\n")
-	writer.WriteString("SUMMARY\n")
 	writer.WriteString(fmt.Sprintf("Lines read : %d\n", linesRead))
 	writer.WriteString(fmt.Sprintf("Lines written : %d\n", len(processed)))
+	writer.WriteString(fmt.Sprintf("Lines removed : %d\n", linesRemoved))
 	writer.WriteString("Lines removed : 0\n")
 
 	timestamp := time.Now().Format("2006-01-02 15:04:05")
 	writer.WriteString(fmt.Sprintf("Processed at : %s\n", timestamp))
 
 	writer.Flush()
-
 	fmt.Printf("Lines read : %d\n", linesRead)
 	fmt.Printf("Lines written : %d\n", len(processed))
-	fmt.Println("Lines removed : 0")
-	fmt.Println("Rules applied : CAPS→Title, lower→UPPER, Trim, Reverse(REVERSE), Flag long")
+	fmt.Printf("Lines removed : %d\n", linesRemoved)
+	fmt.Println("Rules applied : CAPS→Title, lower→UPPER, Trim, Reverse(REVERSE), Remove Dashes/Blanks")
 	fmt.Printf("Processed at : %s\n", timestamp)
 }
